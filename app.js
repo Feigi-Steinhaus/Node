@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.get("",(req,res)=>{
-    res.status(200).send("Feigi Steinhaus👍")
+    res.status(200).send("Hello world👍")
 })
 
 app.listen(3001, () => {
